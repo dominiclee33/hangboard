@@ -1,0 +1,16 @@
+hangboard/workout/timerstatus
+hangboard/workout/holds
+hangboard/workout/status
+hangboard/workout/exercisetype
+
+hangboard/sensor/load/status
+hangboard/sensor/load/time
+hangboard/sensor/load/loadcurrent
+hangboard/sensor/load/loadaverage
+hangboard/sensor/load/loadmaximal
+hangboard/sensor/load/loadloss
+hangboard/sensor/load/fti
+hangboard/sensor/load/rfd
+
+mosquitto_pub -h localhost -t hangboard/workout/control -m Start
+mosquitto_sub -h localhost -t hangboard/workout/timerstatus 

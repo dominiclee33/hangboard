@@ -1,0 +1,9 @@
+websockets
+smbus
+tabulate
+RPi.GPIO
+svglib
+scipy
+numpy
+pymongo
+paho-mqtt
